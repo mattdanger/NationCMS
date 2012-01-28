@@ -1,0 +1,35 @@
+#===============================================================================
+#
+# NationCMS
+#
+# Copyright (C) 2007 Matt West <matt at mattdanger dot net>
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# For a copy of the GNU General Public License visit <http://www.gnu.org/licenses/>.
+#
+#===============================================================================
+
+ABOUT NationCMS
+
+A mostly object oriented PHP based content management system that I wrote. It is loosely named "NationCMS" because that is the name of the site I wrote it for. It was written to work with PHP 4.2 and MySQL. It was my first attempt towards a more "Web 2.0" site and included the following features:
+
+- Object Oriented codebase
+- Partial template engine with custom 404 and 403 error pages.
+- Blog w/ RSS feed
+- User profiles
+- Photo & video uploading and hosting
+- Full administrative backend with user access controls
+- Clean URLs using Apache's mod_rewrite module
+- All forms have input validation and MySQL insert filters
+- Usage and error logging
+
+Matt West <matt@mattdanger.net> Copyright 2007

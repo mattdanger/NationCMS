@@ -1,0 +1,183 @@
+body {
+    background-color:#FFFFFF; 
+    margin-top: 0px; 
+    margin-bottom: 0px; 
+    margin-left: 0px; 
+    margin-right: 0px;
+    font-size: 12px;
+    color: #FFFFFF;
+    font-family: Verdana; }
+td {
+    font-size: 12px;
+    color: #FFFFFF;
+    font-family: Verdana; }
+input {
+    font-size: 11px;
+    color: #000000;
+    font-family: Verdana; }
+textarea {
+    font-size: 11px;
+    color: #000000;
+    font-family: Verdana; }
+select {
+    font-size: 7pt; }
+img:link, img:visited, img:active, img:hover { color: #CCCCCC; text-decoration: underline; }
+a:link.showPointer, a:visited.showPointer, a:active.showPointer, a:hover.showPointer { color: #CCCCCC; text-decoration: underline; }
+a:link, a:visited, a:active { color: #AA0000; text-decoration: none; }
+a:hover { color: #AA0000; text-decoration: underline; }
+a:link.skatersLinks, a:visited.skatersLinks, a:active.skatersLinks, a:hover.skatersLinks { color: #FFFFFF; text-decoration: none; }
+#imagePhotographer { font-size: 10px; }
+#imageDate { font-size: 11px; }
+#imageLocation { font-size: 11px; }
+#imageDescription { font-size: 11px; }
+.admin_error { color: #FF0000; }
+.showPointer { cursor: pointer;}
+.bluebox_image {
+    color: #CCCCCC; }
+.blueboxen {
+    font-family: Verdana;
+    font-size: 12px;
+    color: #FFFFFF; }
+.main {
+    font-family: Verdana;
+    font-size: 12px;
+    color: #FFFFFF; }
+.header {
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFFFFF; 
+    text-shadow: 2px 2px .2em #000;
+    border-bottom: 1px dotted #666;
+    line-height: 1.5em; }
+.footer {
+    font-family: Verdana;
+    font-size: 10px;
+    color: #CCCCCC; }
+
+
+/*********************/
+/*   Admin Styles    */
+/*********************/
+
+/* General styles */
+.admin_box_message {
+    height: 15px;
+    font-size: 11px;
+    background-color: #222;
+    border: 1px solid #666;
+    padding: 3px;
+    margin: 0px; }
+.admin_error {
+    color: #FF0000;
+    font-weight: bold; }
+.admin_success {
+    color: #00AA00;
+    font-weight: bold; }
+
+/* News styles */
+.news_box {
+    width: 512px; 
+    border: 1px solid #333; 
+    background-color: #222 }
+.news_body {
+    width: 495px; 
+    padding: 5px }
+.news_footer {
+    width: 512px; 
+    height: 13px; 
+    background-color: #000; 
+    font-size: 10px; 
+    color: #666; }
+.news_footer_td {
+    background-color: #000; 
+    font-size: 10px; 
+    color: #666; }
+.news_box_add {
+    cursor: pointer;
+    height: 15px;
+    width: 60px;
+    font-size: 11px;
+    font-weight: bold;
+    background-color: #000;
+    border: 1px solid #666;
+    padding: 3px;
+    margin: 0px; }
+
+
+/* Friends styles */
+.admin_friend_display {
+    width: 200px;
+    border: 0px solid #666;
+    text-align: center; 
+    font-size: 11px; }
+.friends_box_add {
+    cursor: pointer;
+    height: 15px;
+    width: 68px;
+    font-size: 11px;
+    font-weight: bold;
+    background-color: #000;
+    border: 1px solid #666;
+    padding: 3px;
+    margin: 0px; }
+
+
+/* Pages styles */
+.admin_pages_display {
+    height: 65px;
+    width: 80px; }
+.admin_pages_image_blank {
+    cursor: pointer;
+    font-size: 40px;
+    text-align: center;
+    height: 50px;
+    width: 75px;
+    background-color: #000;
+    border: 1px solid #666;
+    padding: 3px;
+    margin: 0px; }
+.admin_pages_image_thumbs {
+    width: 99%;
+    height: 85%;
+    border: 1px solid #666; }
+
+
+
+/* Articles styles */
+.articles_box_add {
+    cursor: pointer;
+    height: 14px;
+    width: 70px;
+    font-size: 11px;
+    font-weight: bold;
+    background-color: #000;
+    border: 1px solid #666;
+    padding: 3px;
+    margin: 0px; }
+.admin_articles_image_blank {
+    cursor: pointer;
+    font-size: 45px;
+    text-align: center;
+    height: 60px;
+    width: 85px;
+    background-color: #000;
+    border: 1px solid #666;
+    padding: 3px;
+    margin: 0px; }
+.admin_articles_image_thumbs {
+    width: 85%;
+    border: 1px solid #666; }
+
+
+/* Video styles */
+.video_box_add {
+    cursor: pointer;
+    height: 14px;
+    width: 64px;
+    font-size: 11px;
+    font-weight: bold;
+    background-color: #000;
+    border: 1px solid #666;
+    padding: 3px;
+    margin: 0px; }
